@@ -5,7 +5,7 @@ import Button from 'components/Form'
 import Link from 'components/Link'
 import PublicLayout from 'containers/PublicLayout'
 
-import './HomePage.scss'
+import './homepage.scss'
 
 const HomePage = () => (
   <div className="HomePage">
