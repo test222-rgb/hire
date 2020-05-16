@@ -1,0 +1,9 @@
+@import './sass/colors';
+
+.Link {
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $primary-1;
+  }
+}

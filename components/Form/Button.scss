@@ -1,0 +1,66 @@
+@import './sass/colors';
+
+$md-padding: 15px 16px;
+$sm-padding: 11px 12px;
+$xs-padding: 8px 12px;
+
+.Button {
+  display: inline-block;
+  border: 0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1em;
+  cursor: pointer;
+  text-align: center;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    color 0.3s ease;
+
+  &:focus {
+    outline: none;
+  }
+
+  &_primary {
+    background-color: $primary-1;
+    color: #FFF;
+
+    &:hover {
+      background-color: #FFF;
+      color: $primary-1;
+    }
+  }
+
+  &_secondary {
+    background-color: $secondary-1;
+    color: #FFF;
+
+    &:hover {
+      background-color: #FFF;
+      color: $primary-1;
+    }
+  }
+
+  &_white {
+    background-color: #FFF;
+    color: $primary-1;
+
+    &:hover {
+      background-color: $primary-1;
+      color: white;
+    }
+  }
+
+  &_md {
+    padding: $md-padding;
+  }
+
+  &_sm {
+    padding: $sm-padding;
+  }
+
+  &_xs {
+    padding: $xs-padding;
+  }
+}

@@ -1,0 +1,28 @@
+@import './sass/colors';
+@import './sass/fonts';
+@import './sass/grid';
+@import './sass/reset';
+@import './sass/mixins';
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gilroy', sans-serif;
+    color: $dark-blue-1;
+  }
+
+  h1 {
+    font-size: 45px;
+    line-height: 54px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 25px;
+    color: $dark-gray-1;
+  }
+}

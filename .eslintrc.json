@@ -1,0 +1,119 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "arrow-body-style": [
+      "error",
+      "as-needed"
+    ],
+    "arrow-parens": [
+      "error",
+      "as-needed"
+    ],
+    "import/extensions": "off",
+    "import/no-cycle": [
+      "error",
+      {
+        "maxDepth": 1
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "import/no-unresolved": "off",
+    "import/order": [
+      "error",
+      {
+        "alphabetize": {
+          "order": "asc"
+        },
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "unknown"
+        ]
+      }
+    ],
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "aspects": [
+          "invalidHref",
+          "preferButton"
+        ],
+        "components": [
+          "Link"
+        ],
+        "specialLink": [
+          "route"
+        ]
+      }
+    ],
+    "object-curly-newline": [
+      "error",
+      {
+        "ImportDeclaration": {
+          "consistent": true,
+          "multiline": true
+        }
+      }
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "react/jsx-filename-extension": [
+      "warn",
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": [
+      "error",
+      {
+        "ignore": [
+          "children",
+          "className"
+        ]
+      }
+    ],
+    "react/require-default-props": "off",
+    "react/sort-prop-types": "error",
+    "semi": [
+      "error",
+      "never"
+    ],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "never",
+        "asyncArrow": "always",
+        "named": "never"
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  }
+}
