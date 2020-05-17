@@ -36,7 +36,7 @@ const PublicNavigationContainer = ({ isOpen }) => {
           </NavigationItem>
         ) : null}
         {!user && !loading ? (
-          <NavigationItem href="/api/Login">
+          <NavigationItem href="/api/login">
             <Button
               size="sm"
               color="primary">
