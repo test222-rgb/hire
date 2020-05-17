@@ -1,0 +1,13 @@
+@import './sass/colors';
+@import './sass/mixins';
+
+.Profile {
+
+  &-Content {
+    text-align: center;
+  }
+
+  &-Picture {
+    width: 100%;
+  }
+}

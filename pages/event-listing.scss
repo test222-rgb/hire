@@ -1,0 +1,8 @@
+@import './sass/colors';
+@import './sass/mixins';
+
+.EventListing {
+  &-Content {
+    text-align: center;
+  }
+}

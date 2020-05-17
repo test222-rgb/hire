@@ -3,48 +3,8 @@
 
 .Footer {
   flex-shrink: 0;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: $dark-gray-1;
   text-align: center;
-
-  &-Copyright {
-    text-align: center;
-    color: rgba(#FFF, 0.5);
-    width: 100%;
-    font-size: 13px;
-    line-height: 18px;
-    margin: 0;
-  }
-
-  @include media-breakpoint-up(md) {
-    text-align: left;
-  }
-
-  &-Logo {
-    width: 96px;
-    height: 28px;
-    margin: 10px 0;
-  }
-
-  &-Icons {
-    display: flex;
-    justify-content: center;
-
-    @include media-breakpoint-up(md) {
-      justify-content: flex-end;
-    }
-
-    .Link {
-      margin: 15px;
-
-      @include media-breakpoint-up(md) {
-        margin-right: 0;
-      }
-    }
-
-    svg {
-      width: 15px;
-    }
-  }
 }
