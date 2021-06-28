@@ -2,7 +2,7 @@
   "name": "payup",
   "version": "0.1.0",
   "dependencies": {
-    "@auth0/nextjs-auth0": "^0.13.0",
+    "@auth0/nextjs-auth0": "^1.4.2",
     "@babel/plugin-proposal-export-default-from": "^7.8.3",
     "@zeit/next-sass": "^1.0.1",
     "@zeit/next-source-maps": "^0.0.3",
